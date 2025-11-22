@@ -38,6 +38,13 @@ public class DBVendoClient {
         this.cache = buildCache(options.getCacheOptions());
     }
 
+    // Package-private constructor for testing
+    DBVendoClient(ClientOptions options, DefaultApi api) {
+        this.options = options;
+        this.api = api;
+        this.cache = buildCache(options.getCacheOptions());
+    }
+
     private Cache<String, Object> buildCache(CacheOptions cacheOptions) {
         if (cacheOptions == null || !cacheOptions.isEnabled()) {
             return null;
