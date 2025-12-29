@@ -12,7 +12,7 @@
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <openapi-generator.version>7.17.0</openapi-generator.version>
+        <openapi-generator.version>7.18.0</openapi-generator.version>
         <swagger.core.version>2.2.41</swagger.core.version>
         <spring.framework.version>7.0.2</spring.framework.version>
         <jackson.core.version>2.20.1</jackson.core.version>
