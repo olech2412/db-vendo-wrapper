@@ -15,7 +15,7 @@
         <openapi-generator.version>7.18.0</openapi-generator.version>
         <swagger.core.version>2.2.41</swagger.core.version>
         <spring.framework.version>7.0.2</spring.framework.version>
-        <jackson.core.version>2.20.1</jackson.core.version>
+        <jackson.core.version>2.21.0</jackson.core.version>
         <lombok.version>1.18.42</lombok.version>
     </properties>
 
